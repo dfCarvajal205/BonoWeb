@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 10rem;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 5px;
+}
+
+.card .card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card .btn-somewhere {
+  color: white;
+  border-radius: 1.25rem;
+  width: auto;
+  height: auto;
+}
